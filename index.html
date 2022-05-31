@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icp-light on off game</title>
+    <style>
+        body{
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #heading{
+            background-color: rgb(233, 75, 141);
+            height: 50px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .container{
+            height: 400px;
+            text-align: center;
+            background-color:;
+            box-shadow: 0px 0px 10px red;
+            border-radius: 100px;
+            
+         }
+
+         .container:hover{
+             box-shadow: violet 0 0 10px;
+             border-radius: 100px;
+        }
+
+         .img{
+             justify-content: center;
+             margin-top: 30px;
+             height: 300px;
+         }
+
+         .btn{
+             background-color: greenyellow;
+             height: 40px;
+             width: 100px;
+             border-radius: 30px;
+            font-size: 20px;
+                 
+       }
+       .btn-container{
+           height: 60px;
+           text-align: center;
+           margin: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 id="heading"> Bulb on-off</h1>
+    <div class="container">
+        <img src="bulb.jpg" class="img" id="img" >
+    </div><br>
+    <div class="btn-container">
+    <button  onclick="document.getElementById('img').src='bulb.jpg'  " class="btn" >Off </button>
+    <button  onclick="document.getElementById('img').src='light-bulb.jpg'  "class="btn" >On</button>
+    </div>
+    
+</body>
+</html>
